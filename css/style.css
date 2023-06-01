@@ -1,124 +1,56 @@
 
-h1,h2,h3,h4,h5,h6,P{
-    margin:0
+
+/*//////////////////// STRUCTURE UTILITIES ////////////////////*/
+.line_height_equal{
+    line-height: 38px;
 }
 
-.debug #nav_header_container{
-    background-color: blueviolet;
+.line_height_equal_2{
+    line-height: 10px;
 }
 
-#nav_title{
-    background-color: yellow;
+.icon_box{
+    width: 35px;
+    height: 35px;
+    line-height: 35px; 
+    text-align: center;
 }
 
-#nav{
-    background-color: brown;
+/*//////////////////// STYLE UTILITIES ////////////////////*/
+
+/* COLOR FARM */
+:root{
+    --grey_blue:#2c3e50;
+    --light_blue:#1abc9c;
+    --l_grey_blue:#3a546d;
 }
 
-#nav_2{
-    background-color: brown;
+/* COLOR UTILITIES */
+.grey_blue_bg{
+   background-color:var(--grey_blue)
 }
 
-#header_banner_container{
-    background-color: blue;
+.grey_blue_t{
+    color:var(--grey_blue)
 }
 
-#img_banner_frame{
-    background-color: aqua;
-    height: 100px;
+.grey_blue_b{
+    border-color:var(--grey_blue) ;
 }
 
-#banner_title{
-    background-color: yellowgreen;
+.sky_blue_bg{
+    background-color: var(--light_blue);
 }
 
-#banner_decoration{
-    background-color: rgb(80, 192, 192);
+.sky_blue_t{
+    color: var(--light_blue);
 }
 
-#skills_list{
-    background-color: rgb(140, 0, 255);
+.l_grey_blue_bg{
+    background-color: var(--l_grey_blue);
 }
 
-#portfolio_container{
-    background-color: orange;
+/* TRANSITION UTILITIES */
+.text_dec_trans:hover{
+    border-bottom: 1px solid white;
 }
-
-#portofolio_title{
-    background-color: grey;
-}
-
-.portfolio_cards{
-    background-color: goldenrod;
-    border: 1px solid black;
-    height: 100px;
-}
-
-#about_container{
-    background-color: lightgreen;
-}
-
-#about_title{
-    background-color: burlywood;
-}
-
-#about_title_decoration{
-    background-color: rgb(69, 63, 63);
-}
-
-.about_text{
-    background-color: brown;
-}
-
-#about_button{
-    background-color: orangered;
-}
-
-#contact_me_container{
-    background-color: rgb(13, 67, 49);
-}
-
-#contact_me_title{
-    background-color: rgb(147, 233, 19);
-}
-
-#contact_me_title_decoration{
-    background-color: rgb(255, 0, 187);
-}
-
-#contact_me_info{
-    background-color: rgb(168, 121, 0);
-}
-
-#contact_me_info > *{
-    border: solid 1px black;
-}
-
-#contact_me_send_button{
-    background-color: rgb(128, 0, 248);
-}
-
-#footer_container{
-    background-color: rgb(112, 34, 114);
-}
-
-#footer_location_info{
-    background-color: rgb(139, 153, 69);
-}
-
-#footer_social_info{
-    background-color: rgb(43, 226, 177);
-}
-
-#footer_theme_info{
-    background-color: rgb(27, 134, 10);
-}
-
-#footer_rights_container{
-    background-color: rgb(0, 119, 255);
-}
-
-#footer_rights{
-    background-color: orange;
-}
-
